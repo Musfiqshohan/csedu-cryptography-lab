@@ -1,0 +1,7 @@
+
+"""
+blob = blob.encode("hex")
+if blob[20] == "3":
+  print("I come in peace.")
+if blob[20] == "b":
+  print("Prepare to be destroyed!")
