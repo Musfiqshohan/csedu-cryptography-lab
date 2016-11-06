@@ -1,0 +1,1 @@
+The attacker can extract the API key from the GET method parameter and use it to make his own requests impersonating the victim.

@@ -1,5 +1,3 @@
-from math import sqrt, floor
-
 def isqrt(n):
     x = n
     y = (x + 1) // 2
@@ -7,6 +5,7 @@ def isqrt(n):
         x = y
         y = (x + n // x) // 2
     return x
+
 
 def isD(k, d, e, mod):
     if k == 0:
@@ -24,6 +23,7 @@ def isD(k, d, e, mod):
     if detr*detr == det and (-b+detr)%2 == 0:
         return True
     return False
+
 
 def find_pvtkey(pubkey, mod):
     '''

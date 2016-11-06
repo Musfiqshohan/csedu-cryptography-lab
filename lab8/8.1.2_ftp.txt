@@ -1,0 +1,1 @@
+The connection is using Active FTP because the client sent PORT command to the server to let it know which port to connect to. Thus the data channel is going to be initiated by the server which means an Active FTP connection is being used.

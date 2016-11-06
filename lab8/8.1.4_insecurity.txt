@@ -1,0 +1,1 @@
+The browser is authenticated to Facebook using an API key which it sends as a GET method parameter which is exposed to everyone and thus makes the authentication insecure.
